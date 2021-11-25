@@ -22,18 +22,17 @@
     }
     ?>
 
-    <title>Edit Film</title>
+    <title>Edit Film Data</title>
 </head>
 </head>
 
-<body style="background-color: black;">
+<body style="background: url(http://localhost/data-film/image/PicsArt_11-25-04.28.23.jpg); background-size: cover; background-attachment: fixed;" style="background-color: black;">
     <div class="row">
-        <div class="col-6 mx-auto">
 
-            <h2 style="color: white;">Edit Film</h2> <br>
+            <h2 class="mx-auto" style="color: white;">Edit Film Data</h2> <br>
             <hr>
 
-            <form action="" method="POST">
+            <form class="col-6 mx-auto" action="" method="POST">
                 <?php if (isset($result) && $result === true) : ?>
                     <div class="alert alert-success" role="alert">
                         film edited successfully
@@ -66,7 +65,7 @@
                     </div>
                     <div class="form-group">
                         <label for="synopsis" style="color: white;">Synopsis</label>
-                        <textarea name="synopsis" class="form-control" id="synopsis" placeholder="enter release year" value="<?= $movie['synopsis'] ?>" rows="3"></textarea>
+                        <textarea name="synopsis" class="form-control" id="synopsis" placeholder="enter synopsis" value="<?= $movie['synopsis'] ?>" rows="3"></textarea>
                     </div>
 
                 <?php endforeach ?>

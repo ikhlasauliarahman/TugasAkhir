@@ -1,7 +1,7 @@
 <?php
 require('./config/db-config.php');
 
-$query = "SELECT * FROM film ORDER BY year DESC";
+$query = "SELECT * FROM film ORDER BY id DESC";
 $film = mysqli_query($mysqli, $query);
 ?>
 
@@ -25,7 +25,7 @@ $film = mysqli_query($mysqli, $query);
         </div>
       <?php endif ?>
       <table class="table table-striped table-dark">
-        <h3 class="mb-3 col-3 mx-auto" style="color: white;">Film List</h3>
+        <h3 class="mb-3 col-3 mx-auto" style="color: white;">Film Data</h3>
         <thead>
           <tr>
             <th scope="col">No</th>

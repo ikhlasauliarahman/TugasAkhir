@@ -7,9 +7,8 @@
 
  <title>Home - Data Film</title>
 
- <nav class="navbar navbar-light bg-white mb-5">
+ <nav class="navbar navbar-light bg-black mb-5">
    <a class="navbar-brand" href="#" style="color: blue;">
-     <img src="http://localhost/data-film/image/PicsArt_11-24-09.55.51.png" width="30" height="30" class="d-inline-block align-top" alt="">
-     SansView
+     <img src="http://localhost/data-film/image/PicsArt_11-25-03.53.07.jpg" width="40" height="40" class="d-inline-block align-top" alt="">
    </a>
  </nav>
